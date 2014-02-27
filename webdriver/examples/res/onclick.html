@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<title>onclick event handler on &lt;button&gt;</title>
+
+<p>Click the button below. The word “PASS” should appear.</p>
+
+<p><button>cheese</button></p>
+
+<p id='result'></p>
+
+<script>
+
+  document.querySelector('button').onclick = function() {
+    document.querySelector('#result').innerHTML = "PASS";
+  }
+
+</script>

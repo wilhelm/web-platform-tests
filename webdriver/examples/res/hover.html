@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<title>:hover changing background color</title>
+
+<style>
+  span {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+
+  .ref, .test:hover {
+    background: navy;
+	}
+
+  .test {
+    background: orange;
+	}
+
+</style>
+
+<p>Move your pointing device to the orange square below. It should turn blue,
+rendering the two squares identical.</p>
+
+<p>
+ <span class='ref'></span>
+ <span class='test'></span>
+</p>
